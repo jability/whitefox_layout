@@ -1,3 +1,4 @@
+#include "config.h"
 #include "whitefox.h"
 
 #define ______ KC_TRNS
