@@ -99,16 +99,3 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
 	}
 	return MACRO_NONE;
 }
-
-/* const uint16_t fn_actions[] = { */
-/* }; */
-
-/* void action_function(keyrecord_t *record, uint8_t id, uint8_t opt) */
-/* { */
-/* 	if (id == K_ESC) { */
-/* 		void (*method)(uint8_t) = (record->event.pressed) ? &register_code : &unregister_code; */
-/* 		uint8_t shifted = get_mods() & (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)); */
-
-/* 		method(shifted ? KC_GRAVE : KC_ESCAPE); */
-/* 	} */
-/* } */
