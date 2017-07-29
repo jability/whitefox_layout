@@ -8,6 +8,7 @@ VISUALIZER_ENABLE = no
 MIDI_ENABLE = no
 AUDIO_ENABLE = no
 UNICODE_ENABLE = no
+TAP_DANCE_ENABLE = yes
 
 ifndef QUANTUM_DIR
 	include ../../../Makefile
