@@ -111,7 +111,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
     case M_TMUX:
         return MACRO_TAP_HOLD_MOD(record, MACRO(D(LCTL), T(B), U(LCTL), END), LCTL);
     }
-    /* return MACRO_NONE; */
+    return MACRO_NONE;
 }
 
 qk_tap_dance_action_t tap_dance_actions[] = {
