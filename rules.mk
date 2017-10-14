@@ -1,3 +1,7 @@
+ifndef QUANTUM_DIR
+	include ../../../Makefile
+endif
+
 BOOTMAGIC_ENABLE = no
 MOUSEKEY_ENABLE = no
 CONSOLE_ENABLE = no
@@ -9,7 +13,3 @@ MIDI_ENABLE = no
 AUDIO_ENABLE = no
 UNICODE_ENABLE = no
 TAP_DANCE_ENABLE = yes
-
-ifndef QUANTUM_DIR
-	include ../../../Makefile
-endif
